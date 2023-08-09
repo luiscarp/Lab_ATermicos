@@ -1,2 +1,2 @@
 # Lab_ATermicos
-Pagina oficial analisis termicos
+Pagina oficial analisis termicos Centro de Investigacion en Materiales Avanzados
