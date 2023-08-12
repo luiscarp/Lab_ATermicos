@@ -1,3 +1,29 @@
+body{
+    align-items: center;
+    background: rgb(216, 216, 216);
+}
+.etiSup{
+    background-color: black;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+}
+#logoyoutube{
+    margin-left: 1rem;
+}
+.redessup1{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+   
+}
+
+.EnlacebtnSup{
+    margin: 1rem;
+    text-align: center;
+}
+
 img{
     width: 100px
 }
