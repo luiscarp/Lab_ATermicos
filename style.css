@@ -7,8 +7,10 @@ body{
 .etiSup{
     background-color: rgb(17, 23, 63);
     height: 2.5rem;
+    display: block;
     margin-top: 0.01rem;
     padding: 0.01rem;
+    width: 62rem;
 }
 
 .btnSup{
@@ -37,5 +39,56 @@ body{
     margin-left: 3rem;
     margin-right: 3rem;
     display: inline;
+}
+
+.imagenprincipal{
+   display: block;
+   width: 62rem;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.tituloppal{
+    color: rgb(255, 255, 255);
+    font-size: 280%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -75%);
+
+}
+
+.textocimav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgb(21,68,222);
+    background: linear-gradient(90deg, rgba(21,68,222,1) 0%, rgba(159,197,241,1) 100%);
+}
+
+.elemento{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.imagenparrafo{
+    max-width: 100%;
+    height: auto;
+}
+
+.parrafoppal{
+    margin: 10px 0;
+
 }
 
