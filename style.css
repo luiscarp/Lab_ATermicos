@@ -10,7 +10,7 @@ body{
     display: block;
     margin-top: 0.01rem;
     padding: 0.01rem;
-    width: 62rem;
+    max-width: 100%;
 }
 
 .btnSup{
@@ -43,13 +43,14 @@ body{
 
 .imagenprincipal{
    display: block;
-   width: 62rem;
+   max-width: 100%;
 }
 
 .contenedor{
     position: relative;
     display: inline-block;
     text-align: center;
+    max-width: 100%;
 }
 
 .tituloppal{
@@ -65,7 +66,8 @@ body{
 }
 
 .textocimav{
-    display: flex;
+    max-width: 100%;
+    display: block;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -73,22 +75,68 @@ body{
     background: linear-gradient(90deg, rgba(21,68,222,1) 0%, rgba(159,197,241,1) 100%);
 }
 
-.elemento{
-    flex: 1;
+.elementosup{
+    display: block;
     text-align: center;
     padding: 10px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
 
+}
+
+.elementoinf{
+    display: inline;
+    text-align: center;
+    padding: 10px;
 }
 
 .imagenparrafo{
-    max-width: 100%;
+    display: inline;
+    align-items: center;
+    width: 28rem;
     height: auto;
 }
 
-.parrafoppal{
+.textoparrafo{
+    font-size: 1rem;
+    color: white;
+    text-size-adjust: auto;
     margin: 10px 0;
+}
+
+.explorarpagina{
+    display: block;
+    margin-top: 2rem;
+    margin-left: 14rem;
+}
+
+.btnexplora{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(226, 214, 214);
+    padding: 0.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 0.5rem;
+    box-shadow:  0.3rem 0.3rem 0.3rem black;
+}
+
+.btnexplora:hover{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(226, 214, 214);
+    box-shadow:  0.1rem 0.1rem 0.1rem black;
 
 }
 
+
+.tituloppalpg{
+    color: rgb(255, 255, 255);
+    font-size: 280%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background: rgb(21,68,222);
+    background: linear-gradient(90deg, rgba(21,68,222,1) 0%, rgba(159,197,241,1) 100%);
+    text-align: center;
+    padding: 3rem;
+    margin: 0rem;
+}
