@@ -67,10 +67,10 @@ body{
 
 .textocimav{
     max-width: 100%;
-    display: block;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 20px;
     background: rgb(21,68,222);
     background: linear-gradient(90deg, rgba(21,68,222,1) 0%, rgba(159,197,241,1) 100%);
 }
@@ -78,45 +78,52 @@ body{
 .elementosup{
     display: block;
     text-align: center;
-    padding: 10px;
 
 }
 
 .elementoinf{
-    display: inline;
+    text-decoration: none;
+    display: block;
     text-align: center;
-    padding: 10px;
+    padding: 0rem;
+    margin: 0;
 }
 
 .imagenparrafo{
-    display: inline;
-    align-items: center;
-    width: 28rem;
+
+    width: 30rem;
     height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2rem;
 }
 
 .textoparrafo{
     font-size: 1rem;
     color: white;
     text-size-adjust: auto;
-    margin: 10px 0;
 }
 
 .explorarpagina{
-    display: block;
-    margin-top: 2rem;
-    margin-left: 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content:space-between ;
+
+
 }
 
 .btnexplora{
-    display: inline;
     color: black;
     text-decoration: none;
     background-color: rgb(226, 214, 214);
     padding: 0.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
     border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     box-shadow:  0.3rem 0.3rem 0.3rem black;
 }
 
@@ -139,4 +146,33 @@ body{
     text-align: center;
     padding: 3rem;
     margin: 0rem;
+}
+
+.direqp{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+.itemeqp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+.tituloitemeqp{
+    text-align: center;
+}
+
+.item{
+    max-width: 100%;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
 }
