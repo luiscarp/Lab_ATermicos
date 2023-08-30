@@ -1,56 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analisis Termicos - CIMAV</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Análisis Térmicos CIMAV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
 </head>
+
 <body>
-    <nav class="etiSup" id="etisup1">
-        <a href="https://www.facebook.com/" class="btnSup" id="logofb1">
-            <img class="redessup" id="logofb" src = "image/5296499_fb_facebook_facebook logo_icon.png" alt="Pagina de facebook" />
-        </a>
-        <a href="https://www.youtube.com/" class="btnSup" id="logoyoutube1">
-            <img class="redessup" id="logoyoutube" src = "image/5296521_play_video_vlog_youtube_youtube logo_icon.png" alt="Pagina de youtube" />
-        </a>
-        <a href="https://www.instagram.com/" class="btnSup" id="logoinsta1">
-            <img class="redessup" id="logoinsta" src = "image/5296765_camera_instagram_instagram logo_icon.png" alt="Pagina de instagram" />
-        </a>
-        <a href="capacidades.html"class="EnlacebtnSup" >Capacidades</a>
-        <a href="nuestrosequipos.html" class="EnlacebtnSup" >Equipos</a>
-        <a href="quienessomos.html" class="EnlacebtnSup">Quienes somos</a>
-        <a href="login.html" class="EnlacebtnSup">Ingresa al sistema</a>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Cimav.svg/1200px-Cimav.svg.png"
+                    class="h-8 mr-3" alt="Flowbite Logo" />
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Análisis
+                    Térmicos</span>
+            </a>
+            <button data-collapse-toggle="navbar-dropdown" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                            aria-current="page">Inicio</a>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                            Nuestras Técnicas
+                            <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-xs text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="tga.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Análisis
+                                        Termogravimétrico</a>
+                                </li>
+                                <li>
+                                    <a href="dsc.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Calorimetría
+                                        diferencial por barrido</a>
+                                </li>
+                                <li>
+                                    <a href="tma.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Análisis
+                                        Termomecánico</a>
+                                </li>
+                                <li>
+                                    <a href="otros.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Otras
+                                        técnicas</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="laboratorio.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Laboratorios del CIMAV</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Servicios a la industria</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <section class="contenedor" id="contenedor1">
-        <img src="image/cq5dam.web.1280.1280.jpeg" alt="InicioAnalisisTermicos" class="imagenprincipal">
-        <h1 class="tituloppal">Bienvenidos al Sitio del Laboratorio de Analisis Termicos del CIMAV</h1>
-    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
 
-
-    <section class="textocimav" id="textocimav">
-        
-        <div class="elementosup">
-            <p class="textoparrafo">
-                El laboratorio de análisis térmicos del CIMAV es considerado a nivel nacional uno de los más completos, por contar con equipamiento en todas las técnicas de análisis térmicos, logrando caracterizar en este ámbito todo tipo de materiales.
-                El laboratorio cuenta con todos los requerimientos exigidos por la Norma ISO 17025 en sus pruebas normalizadas. La aportación de los análisis realizados se puede aplicar en las tres etapas de producción, análisis de materia prima, procesamiento y producto terminado. La caracterización térmica nos permite conocer diferencias térmicas, comportamiento de nuevas materias primas, hacer simulaciones de procesos térmicos, bajo condiciones de calentamiento variadas, identificar fallas en procesamiento o en producto terminado, debidas a alteraciones en los procesos de fabricación. Enfocándonos un poco más en la industria de los plásticos, ya que se cuenta con un amplia gama de pruebas de análisis térmicos para esta rama.
-             </p>
-        </div>
-
-        <a href="https://www.cimav.edu.mx" class="elementoinf">
-            <img src="image/CIMAVinstalacion.PNG" alt="InicioAnalisisTermicos" class="imagenparrafo">
-        </a>
-
-        <div class="explorarpagina">
-            <a href="capacidades.html" class="btnexplora">Nuestras capacidades</a>
-            <a href="nuestrosequipos.html" class="btnexplora">Nuestros equipos</a>
-        </div>
-
-
-
-    </section>
-
-
-    </body>
 </html>
