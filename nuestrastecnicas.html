@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestras Tecnicas</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
-<body>
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+<body class="bg-gray-100 lg:bg-gray-100">
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 z-100 relative">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Cimav.svg/1200px-Cimav.svg.png"
@@ -31,7 +35,7 @@
                 <ul
                     class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="#"
+                        <a href="index.html"
                             class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                             aria-current="page">Inicio</a>
                     </li>
@@ -52,7 +56,8 @@
                                 aria-labelledby="dropdownLargeButton">
                                 <li>
                                     <a href="nuestrastecnicas.html"
-                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Nuestras tecnicas</a>
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Nuestras
+                                        tecnicas</a>
                                 </li>
                                 <li>
                                     <a href="tga.html"
@@ -96,7 +101,111 @@
         </div>
     </nav>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <h1 class="text-4xl lg:text-6xl text-center font-bold py-4 z-1 relative">El laboratorio de análisis térmicos más
+        avanzado de México</h1>
+
+
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96 ">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783958/20230810_151525_qci0ax.jpg"
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783953/20230810_151519_ywnj24.jpg"
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783958/20230810_151516_br43qc.jpg"
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783956/20230810_151604_kpx7sm.jpg"
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783955/20230810_151530_fjigqp.jpg"
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+        </div>
+
+        <p class="text-2xl lg:text-4xl py-8 text-center font-bold">
+            El laboratorio de análisis térmicos del CIMAV es considerado uno de los más avanzados a nivel nacional.
+            Tenemos capacidades de análisis termogravimétricos (TGA), calorimetría diferencial por barrido (DSC) y
+            análisis termomecánico (TMA). Además, contamos con capacidades de dilatometría, conductividad térmica y un
+            sistema de impresión 3D.
+        </p>
+
+
+        <div class="flex flex-col items-center px-6">
+            <a href="dsc.html"
+                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-col md:my-12 md:max-w-2xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-96 md:w-96 md:rounded-none md:rounded-l-lg"
+                    src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783955/20230810_151530_fjigqp.jpg"
+                    alt="">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Calorimetria
+                        diferencial por barrido (DSC)</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-2xl">
+                        La técnica DSC (Calorimetría Diferencial de Barrido) es como una lupa para los secretos de los
+                        materiales. Revela sus misterios ocultos al medir los cambios precisos de calor mientras se
+                        calientan o enfrían. Desde la identificación de fusiones y transiciones hasta la detección de
+                        impurezas, DSC es el detective del mundo de los materiales, desvelando sus secretos con una
+                        precisión asombrosa. ¡Descubre lo que realmente sucede en tus muestras con DSC!</p>
+                </div>
+            </a>
+
+            <a href="tga.html"
+                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-col md:my-12 md:max-w-2xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-96 md:w-96 md:rounded-none md:rounded-l-lg"
+                    src="https://res.cloudinary.com/dz9dt7nqo/image/upload/v1693783953/20230810_151519_ywnj24.jpg"
+                    alt="">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Analisis
+                        termogravimetrico (TGA)</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-2xl">
+                        El análisis termogravimétrico (TGA) es como un detective de peso molecular. Rastrea
+                        minuciosamente los cambios de masa de una muestra mientras se calienta o se enfría. Con TGA,
+                        puedes descubrir la composición, la estabilidad y la degradación de tus muestras, como un
+                        verdadero investigador químico. ¡Revela los secretos de las sustancias a través del análisis
+                        termogravimétrico!</p>
+                </div>
+            </a>
+
+            <a href="tma.html"
+            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-col md:my-12 md:max-w-2xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <img class="object-cover w-full rounded-t-lg h-96 md:h-96 md:w-96 md:rounded-none md:rounded-l-lg"
+                src="https://www.ims.uconn.edu/wp-content/uploads/sites/3020/2021/08/TA-INSTRUMENTS-TMA-Q400.jpg"
+                alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Analisis termomecanico (TMA)</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-2xl">
+                    La técnica de Análisis Termomecánico (TMA) es como un maestro de la deformación. Mide cómo los materiales responden mecánicamente al cambio de temperatura. Con TMA, puedes descubrir cómo se doblan, expanden o contraen tus muestras, desvelando sus propiedades únicas. ¡Explora el mundo de la deformación y la temperatura con TMA!</p>
+            </div>
+        </a>
+
+        </div>
+
+        <footer class="bg-gray-300 py-4 mt-10">
+            <div class="container mx-auto text-center">
+                <p class="text-gray-700">&copy; 2023 luiscarp. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
 
 </body>
 
